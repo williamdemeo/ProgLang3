@@ -5,7 +5,9 @@
                use "first.sml";
 
           This loads the contents of first.sml and evaluates 
-          the variable bindings. Then you can use the variables.*)
+          the variable bindings. Then you can use the variables.
+          After playing around, you can stop the REPL and restart
+          it with C-d and then C-c C-s again. *)
 
 val x = 34;
 (* static environment: x : int *)
